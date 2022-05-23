@@ -1,3 +1,9 @@
+<?php
+    $pdo = new PDO(
+    'mysql:host=localhost;dbname=blog',
+    'root',
+    'root');
+?>
 <!doctype html>
 <html lang="en">
 <head>
@@ -53,8 +59,22 @@
 <div class="container">
 
     <h1>Hello, world!</h1>
-    <?php echo "Hallo Welt!" ?>
     <p class="lead">Das hier ist die Startseite des Blogs.</p>
+
+    <?php
+        $res = $pdo->query("SELECT * FROM `posts`");
+    ?>
+
+    <pre><?php var_dump($res); ?></pre>
+
+    <ul>
+        <?php foreach ($res AS $row): ?>
+        <li>
+            <?php echo $row["title"]; ?>
+        </li>
+        <?php endforeach; ?>
+    </ul>
+
 </div>
 
 
