@@ -57,10 +57,8 @@
     <p class="lead">Das hier ist die Startseite des Blogs.</p>
 
     <?php
-        $res = $pdo->query("SELECT * FROM `posts`");
+        $res = fetch_posts();
     ?>
-
-    <pre><?php var_dump($res); ?></pre>
 
     <ul>
         <?php foreach ($res AS $row): ?>
