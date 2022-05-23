@@ -1,9 +1,4 @@
-<?php
-    $pdo = new PDO(
-    'mysql:host=localhost;dbname=blog',
-    'root',
-    'root');
-?>
+<?php include("./../database.php"); ?>
 <!doctype html>
 <html lang="en">
 <head>
