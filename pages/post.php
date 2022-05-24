@@ -2,7 +2,7 @@
 <?php include("elements/header.php"); ?>
 
 <?php
-    $postsRepository = new App\Post\PostRepository();
+    $postsRepository = new App\Post\PostsRepository();
     $id = $_GET['id'];
     $post = $postsRepository->fetchPost($id);
 ?>
