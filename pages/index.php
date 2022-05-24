@@ -1,17 +1,18 @@
-<?php include("../database.php"); ?>
+<?php include("../init.php"); ?>
 <?php include("elements/header.php"); ?>
 
     <h1>Hello, world!</h1>
     <p class="lead">Das hier ist die Startseite des Blogs.</p>
 
     <?php
-        $res = fetch_posts();
+        $postsRepository = new App\Post\PostsRepository();
+        $res = $postsRepository->fetchPosts();
     ?>
 
     <ul>
         <?php foreach ($res AS $row): ?>
         <li>
-            <a href="post.php?title=<?php echo $row["title"]; ?>">
+            <a href="post.php?id=<?php echo $row["id"]; ?>">
 
             <?php echo $row["title"]; ?>
             </a>

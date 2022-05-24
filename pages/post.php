@@ -1,12 +1,10 @@
-<?php include("../database.php"); ?>
+<?php include("../init.php"); ?>
 <?php include("elements/header.php"); ?>
 
-<h1>Post.php</h1>
-
 <?php
-    $title = $_GET['title'];
-    $post = fetch_post($title);
-    var_dump($post);
+    $postsRepository = new App\Post\PostRepository();
+    $id = $_GET['id'];
+    $post = $postsRepository->fetchPost($id);
 ?>
 
 <div class="panel panel-default">
@@ -17,7 +15,5 @@
         <?php echo $post["content"]; ?>
     </div>
 </div>
-
-<pre><?php var_dump($_GET); ?></pre>
 
 <?php include("elements/footer.php"); ?>
