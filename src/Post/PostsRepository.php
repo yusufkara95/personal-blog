@@ -23,7 +23,7 @@ class PostsRepository
     {
         $stmt = $this->pdo->prepare("SELECT * FROM `posts` WHERE id = :id");
         $stmt->execute(['id' => $id]);
-        $stmt->setFetchMode(PDO::FETCH_CLASS, "App\\Post\\Postmodel");
+        $stmt->setFetchMode(PDO::FETCH_CLASS, "App\\Post\\PostModel");
         $post = $stmt->fetch(PDO::FETCH_CLASS);
 
         return $post;
