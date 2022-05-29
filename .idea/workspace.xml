@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="44286088-9f2c-4d42-94f3-09bd3440e8e0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Post/PostModel.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/post.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/post.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Post/PostsRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Post/PostsRepository.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,7 +41,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1653859614922</updated>
-      <workItem from="1653859622487" duration="1362000" />
+      <workItem from="1653859622487" duration="1467000" />
     </task>
     <servers />
   </component>
