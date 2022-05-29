@@ -2,7 +2,7 @@
 <?php include("elements/header.php"); ?>
 
 <?php
-    $postsRepository = new App\Post\PostsRepository($pdo);
+    $postsRepository = $container->make("postsRepository");
     $id = $_GET['id'];
     $post = $postsRepository->fetchPost($id);
 ?>
