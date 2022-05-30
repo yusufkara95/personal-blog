@@ -1,4 +1,9 @@
-<?php include("../init.php"); ?>
+<?php include("../init.php");
+
+    $postsController = $container->make("postsController");
+    $postsController->index();
+?>
+<?php /*
 <?php include("elements/header.php"); ?>
 
     <h1>Hello, world!</h1>
@@ -21,3 +26,4 @@
     </ul>
 
 <?php include("elements/footer.php"); ?>
+*/ ?>
