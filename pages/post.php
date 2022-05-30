@@ -1,5 +1,5 @@
 <?php include("../init.php"); ?>
-<?php include("elements/header.php"); ?>
+<?php include __DIR__ . "/../layout/header.php"; ?>
 
 <?php
     $postsRepository = $container->make("postsRepository");
