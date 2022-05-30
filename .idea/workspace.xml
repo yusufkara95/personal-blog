@@ -2,9 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="44286088-9f2c-4d42-94f3-09bd3440e8e0" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/views/post/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/init.php" beforeDir="false" afterPath="$PROJECT_DIR$/init.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/elements/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/layout/footer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/elements/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/layout/header.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/post.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/post.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/sitemap.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Post/PostsController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Core/Container.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Core/Container.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -36,6 +41,11 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/views/layouts" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -45,7 +55,7 @@
       <option name="presentableId" value="Default" />
       <updated>1653859614922</updated>
       <workItem from="1653859622487" duration="3957000" />
-      <workItem from="1653864294275" duration="1439000" />
+      <workItem from="1653864294275" duration="2925000" />
     </task>
     <servers />
   </component>
