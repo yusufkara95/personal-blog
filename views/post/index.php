@@ -3,11 +3,11 @@
 <br>
 
 <ul>
-    <?php foreach ($posts AS $row): ?>
+    <?php foreach ($posts AS $post): ?>
         <li>
-            <a href="post.php?id=<?php echo $row->id; ?>">
+            <a href="post?id=<?php echo $post->id; ?>">
 
-                <?php echo $row->title; ?>
+                <?php echo $post->title; ?>
             </a>
         </li>
     <?php endforeach; ?>
