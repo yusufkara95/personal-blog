@@ -15,6 +15,8 @@ Personal blog written in PHP with MySQL
 - [ ] Create new post
 - [ ] Edit a post 
 - [ ] Add a comment to a post
+- [ ] Login + Logout
+- [ ] Dashboard
 
 ## Author
 
