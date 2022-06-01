@@ -1,7 +1,7 @@
-# personal-blog
+# Personal Blog
 Personal blog written in PHP with MySQL
 
-# Finished Functions
+## Finished Functions
 - [x] Show post/s
 
 ## Built With
